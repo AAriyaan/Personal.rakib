@@ -1,0 +1,399 @@
+body{
+    margin:0 auto;
+}
+.main{
+    overflow: scroll;
+   
+}
+.section{
+    background-image: url(bg-2.jpg);
+    background-size: cover;
+    height:800px;
+    background-position: center;
+    
+}
+
+.top{
+    position:sticky;
+    top: 0;
+    display: flex;
+    background-color:black;
+    width: 1885px;
+}
+.h{
+    color: white;
+    font-size: 40px;
+flex-basis: 50%;
+padding-left: 20rem;
+font-weight: 900;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p{
+   padding-left: 15rem;
+    font-size: 30px;
+    flex-basis: 50%;
+    color:orangered;
+    font-weight: 800;
+  
+}
+
+
+
+
+.nav{
+    position:fixed;
+    top: 45px;
+    right: 20rem;
+    display: none;   
+}
+.icon{
+    position: fixed;
+    top:10px;
+    right: 25rem;
+    font-size: 30px;
+    color: white;
+}
+
+.navber:hover .nav{
+    display: block;
+}
+ul li{
+    display: block;
+    list-style-type: none;
+    width: 150px;
+}
+
+ul li a{text-decoration: none;
+    display: inline-block;
+
+    color: black;
+    padding: 8px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+h3{
+    padding-left: 15rem; 
+    padding-top: 5rem;
+    color: rgb(224, 76, 18);
+    font-size: 30px;
+    word-spacing: 8px;
+}
+h1{
+  padding-left: 14.5rem;
+color: rgb(10, 10, 10);
+font-size:50px ;
+letter-spacing: 2px;
+}
+
+h4{
+    padding-left: 15rem;
+    font-size: 20px;
+}
+button{
+    font-size: 20px;
+    margin-left: 17rem;
+    padding: 10px 20px;
+    background-color: black;
+    color:white;
+   
+}
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.a{
+    font-size:22px;
+    padding-left: 20px;
+    color:rgb(224, 76, 18);
+}
+.a:hover{
+    text-decoration: none;
+}
+
+.row-1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 10rem;
+    }
+    
+    .left{
+        flex-basis: 50%;
+       
+    }
+   .right{
+    flex-basis:50%;
+   }
+
+.right img{
+    height: 300px;
+    width: 300px;
+    border-radius: 80%;
+    border: 10px solid rgb(13, 13, 13);
+    outline-color: rgb(255, 72, 0);
+    outline-style: solid;
+    outline-offset: 3px;
+    outline-width: 10px;
+}
+
+h2{
+background-color:rgba(255, 68, 0, 0.694);
+padding: 10px 15px;
+width: 115px;
+margin-left:46% ;
+margin-top:8rem ;
+
+}
+h5{
+    margin-top: 20px;
+    font-size:50px;
+    text-align: center;
+    margin-bottom: -30px;
+}
+
+
+
+
+
+
+           /*container*/
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.left-1{
+    flex-basis: 40%;
+    max-width: 600px;
+padding-left:30rem;
+font-size: 30px;
+padding-top: 7rem;
+}
+p{
+    clear: left;
+    font-size: 20px;
+}
+.right-1{
+flex-basis:30% ;
+padding-left: 10rem;
+padding-bottom: 10rem;
+
+}
+
+.circle{
+    background-image:url(circle-2.png) ;
+    width: 250px;
+    height: 250px;
+    background-repeat:no-repeat;
+   
+
+}
+big{
+    font-size: 100px;
+  position:absolute;
+  top: 72rem;
+  left: 84rem;
+
+}
+.exp{
+    font-size: 30px;
+
+}
+
+.address{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding:5rem 10rem;
+    text-align: center;
+    font-size: 30px;
+    line-height: 5px;
+    margin-top: -5rem;
+} 
+.name{
+    flex-basis: 25%;
+
+}
+.email{
+    flex-basis: 25%; 
+ 
+}
+.email h6{
+    text-decoration:underline;
+}
+.dob{
+    flex-basis: 25%;
+}
+.from{
+    flex-basis: 25%;
+}
+
+
+
+
+                  /*resume*/
+
+
+
+.resume{
+    padding-top:0.5px;
+background-color:rgba(150, 150, 142, 0.418) ;
+    background-position: center;
+    background-size: cover;
+    height:1200px;
+
+}
+
+.heder{
+    margin-top: -50px;
+    text-align: center;
+    color:rgb(2, 2, 24);
+}
+.edu{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding-left:5rem;
+    padding-right: 5rem;
+margin-top: 10rem;
+   
+                    /*cademy*/
+}
+.academy{
+    flex-basis: 50%;   
+
+}
+.myedu{
+    font-size: 35px;
+    color: rgb(20, 21, 21);
+    text-align: left;
+    padding-left:15rem;
+}
+
+
+
+                /*    degree    */
+.degree{
+  box-shadow: 0 0 10px 5px  rgba(236, 228, 214, 0.613);
+  margin-top: 4rem;
+  text-align: left;
+  padding: 10px;
+  color:black;
+ margin-left: 15rem;
+  border-left:5px solid orange ;
+  max-width: 600px;
+      }
+.msc{
+
+    font-size:25px ;
+    color:black;
+}
+.versity{
+    margin-top: -30px;
+    font-size:20px ;
+    opacity: 0.6; 
+}
+.add{
+    margin-top: -30px;
+    font-size:20px ;
+    opacity:0.3 ;
+}
+.div{
+content:'' ;
+height: 1px;
+width: 550px;
+background: black;
+margin-top: -20px;
+}
+
+
+
+
+
+.expeance{
+
+    flex-basis: 50%;
+
+}
+
+
+.Exp{
+    box-shadow: 0 0 10px 5px  rgba(185, 183, 181, 0.613);
+    margin-top: 4rem;
+    text-align: left;
+    padding:10px;
+    color:black;
+   margin-right: 15rem;
+    border-left:5px solid orange ;
+    max-width: 600px;
+        }
+
+.myex{
+    font-size:35px ;
+    text-align: left;
+
+}
+
+               /*line*/
+.line{
+
+    margin-top: 5rem;
+    margin-left: 45%;
+}
+
+.line-1{
+    content: '';
+    height: 5px;
+    width:300px;
+    background:orangered;
+}
+.line-2{
+    content: '';
+    height: 5px;
+    width:200px;
+    background:orangered;
+    margin-top: 5px;
+}
+.line-3{
+    content: '';
+    height: 5px;
+    width:100px;
+    background:orangered;
+    margin-top: 5px;
+}
+
+        /*footer*/
+        .footer{
+            background-color: black;
+            margin-top: 5rem;
+            display: flex;
+            text-align: center;
+        padding: 30px;
+
+        }
+
+        .left-2{
+            flex-basis: 40%;
+            color: white;
+            font-size: 20px;
+        }
+        .left-2 a{
+            color: orangered;
+        }
+
+        .right-2{
+            flex-basis: 40%;
+            color: white;
+            font-size: 20px;
+            margin-left:50rem ;
+        
+        }
+        .right-2 a{
+            color: orangered;
+        }
