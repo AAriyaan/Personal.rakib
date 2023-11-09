@@ -38,7 +38,13 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   
 }
 
-
+.icon{
+    position: fixed;
+    top:10px;
+    right: 25rem;
+    font-size: 30px;
+    color: white;
+}
 
 
 .nav{
@@ -47,13 +53,7 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     right: 20rem;
     display: none;   
 }
-.icon{
-    position: fixed;
-    top:10px;
-    right: 25rem;
-    font-size: 30px;
-    color: white;
-}
+
 
 .navber:hover .nav{
     display: block;
@@ -94,16 +94,17 @@ h4{
     padding-left: 15rem;
     font-size: 20px;
 }
-button{
+.button{
     font-size: 20px;
     margin-left: 17rem;
     padding: 10px 20px;
     background-color: black;
     color:white;
+    text-decoration: none;
    
 }
-button:hover{
-    background-color: aliceblue;
+.button:hover{
+    background:linear-gradient(to right bottom,orange,red);
     color: black;
 }
 .a{
@@ -155,10 +156,6 @@ h5{
     text-align: center;
     margin-bottom: -30px;
 }
-
-
-
-
 
 
            /*container*/
@@ -235,7 +232,12 @@ big{
 }
 
 
+@media (min-width: 320px) and (max-width: 480px) {
 
+
+
+
+}
 
                   /*resume*/
 
@@ -262,6 +264,12 @@ background-color:rgba(150, 150, 142, 0.418) ;
     padding-left:5rem;
     padding-right: 5rem;
 margin-top: 10rem;
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+    
+}
    
                     /*cademy*/
 }
