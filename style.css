@@ -1,5 +1,8 @@
 
-
+body{
+    margin: auto;
+    max-width: 480px;
+}
 /*      header                  */
 .header {
     position: sticky;
@@ -231,6 +234,7 @@ h4 {
 }
     .section{
         height:450px;
+        width: 100px;
     }
     
     .row-1{
