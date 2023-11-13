@@ -233,8 +233,8 @@ h4 {
 @media (min-width: 320px) and (max-width: 480px) {
     .main {
         overflow-y: scroll;
-        width: 400px;
-        height:2000px;
+        width:100%;
+    
     
     }
     .section{
@@ -567,8 +567,14 @@ margin-top: -50px;
     .resume {
         position: relative;
         top: -600px;
-        height: 1350px;
+        height: 1450px;
         width: 400px;
+    }
+    #small{
+        font-size: 20px;
+    }
+    span{
+        font-size: 20px;
     }
 
     .headder{
@@ -696,10 +702,11 @@ margin:0 auto;
 }
 .left-2{
     white-space: nowrap;
+    margin-left: -10px;
 }
 .right-2{
     position: relative;
-    left: -800px;
+    left: -810px;
     white-space: nowrap; 
 }
 
