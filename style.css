@@ -44,22 +44,23 @@ body{
      width: 400px;
     }
     .names{
-        font-size: 30px;
+        font-size: 25px;
         position: relative;
         top: 5px;
         left: -300px;
 
     }
     .phone-no {
-        font-size: 30px;
+        font-size: 25px;
         position: relative;
-        top: -35px;
-        left: -460px;  
+        top: -25px;
+        left: -480px;  
     }
 .icon-0{
      position: relative;
-     top: 40px;
-     left: -45px;
+     top: 35px;
+     left: -25px;
+     font-size:25px ;
 
     }
    
@@ -127,7 +128,7 @@ ul li a {
                   /*  Main */
 .main {
     overflow-y: scroll;
-width: 100%;
+
 }
 
 
@@ -567,7 +568,7 @@ margin-top: -50px;
     .resume {
         position: relative;
         top: -600px;
-        height: 1450px;
+        height: 1500px;
         width: 400px;
     }
     #small{
@@ -702,11 +703,11 @@ margin:0 auto;
 }
 .left-2{
     white-space: nowrap;
-    margin-left: -10px;
+    margin-left: -15px;
 }
 .right-2{
     position: relative;
-    left: -810px;
+    left: -815px;
     white-space: nowrap; 
 }
 
