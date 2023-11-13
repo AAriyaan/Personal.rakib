@@ -230,6 +230,12 @@ h4 {
 
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .main {
+        overflow-y: scroll;
+        width: 400px;
+        height:2000px;
+    
+    }
     .section{
         height:450px;
         width: 400px;
